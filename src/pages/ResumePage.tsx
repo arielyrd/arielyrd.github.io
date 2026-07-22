@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 import {
   ArrowRight,
   BadgeCheck,
@@ -211,14 +210,11 @@ const certificates = [
 ];
 
 const ResumePage = () => {
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
-
   return (
     <section className="page-shell">
       <motion.div
-        ref={ref}
         initial={{ opacity: 0, y: 18 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
         <div className="grid gap-8 lg:grid-cols-[0.28fr_0.72fr] lg:items-start">
