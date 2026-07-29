@@ -11,7 +11,7 @@ import {
   MapPin,
   Sparkles,
 } from "lucide-react";
-import cvFile from "../assets/CV - Ariel Yordan Tjahyadinata.pdf";
+import cvFile from "../assets/CV Updated - Ariel Yordan Tjahyadinata.pdf";
 
 const outline = [
   { id: "summary", label: "Summary" },

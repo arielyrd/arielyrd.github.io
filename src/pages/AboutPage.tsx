@@ -87,21 +87,13 @@ const AboutPage = () => {
             </h1>
 
             <p className="page-lead max-w-3xl">
-              Hello! I'm Ariel Yordan Tjahyadinata, a fresh graduate with a
-              strong drive to build and improve digital products. I’m open to
-              roles across software engineering and backend development, but I’m
-              especially drawn to Cloud Engineering, DevOps, and Product
-              Management—where I can focus on building scalable systems,
-              improving workflows, and delivering real impact through
-              technology.
+              Hello! I'm Ariel Yordan Tjahyadinata, a fresh graduate in Informatics Engineering who enjoys turning business requirements into reliable software solutions. My experience spans software development, AI applications, and system analysis through academic projects and professional internship, where I learned that good technology is not only about writing code but also about understanding the problems behind it.
               <br></br>
               <br></br>
-              My interest in tech started from curiosity and grew into a
-              commitment to keep learning and evolving. I enjoy breaking down
-              how systems work, experimenting with new tools, and turning ideas
-              into practical solutions. As I begin my professional journey, I’m
-              motivated to contribute, grow, and create meaningful results in a
-              fast-paced tech environment.
+              My primary interests are ERP/SAP, Software Engineering, and AI Engineering. I am particularly interested in how software can streamline business processes, improve operational efficiency, and support better decision-making. Whether developing AI-based applications, designing system workflows, or building backend services, I aim to create solutions that are practical, maintainable, and aligned with business objectives.
+              <br></br>
+              <br></br>
+              As I begin my professional career, I look for opportunities that challenge me to keep learning, collaborate with experienced teams, and grow into an engineer who combines strong technical skills with a solid understanding of business needs.
             </p>
 
             {/* <div className="mt-8 flex flex-wrap gap-3">

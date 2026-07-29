@@ -38,7 +38,7 @@ const Hero = () => {
               {[
                 "Cloud Computing",
                 "IT Enthusiast",
-                "DevOps",
+                "ERP System",
                 "Software Engineer",
               ].map((item) => (
                 <span key={item} className="meta-chip">
@@ -78,7 +78,7 @@ const Hero = () => {
               {[
                 ["Location", "Jakarta, Indonesia"],
                 ["Availability", "Open for opportunities"],
-                ["Focus", "Web / cloud / mobile"],
+                ["Focus", "ERP Systems / Software Engineer / AI Enthusiast"],
               ].map(([label, value]) => (
                 <div
                   key={label}
